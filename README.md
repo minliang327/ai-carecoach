@@ -122,6 +122,8 @@ ai-carecoach/
 │   └── watermark.png
 └── README.md               # You are here
 
+---
+
 ## 🏗️ System Architecture Overview
 
 ```plaintext
