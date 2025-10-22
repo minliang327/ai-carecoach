@@ -1,0 +1,202 @@
+{
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "why",
+      "question": "Why is it necessary to measure and record body temperature every 4 hours during the high fever period?",
+      "options": [
+        "A. To prevent thermometer errors",
+        "B. To observe the absorption speed of antipyretic drugs",
+        "C. To dynamically assess the trend of temperature changes and judge the progression of the condition",
+        "D. To encourage the patient to drink more water"
+      ],
+      "answer": "C",
+      "explanation": "The body temperature of patients with high fever changes quickly; regular measurement allows monitoring the progression of the condition and the effect of cooling measures."
+    },
+    {
+      "id": "Q2",
+      "type": "when",
+      "question": "When the pulse is $<60$ beats/min and accompanied by dizziness and fatigue, how should the caregiver handle it?",
+      "options": [
+        "A. Continue to observe for 10 minutes and then re-measure",
+        "B. Report to the doctor immediately",
+        "C. Let the patient rest and re-measure",
+        "D. Give the patient sugar water"
+      ],
+      "answer": "B",
+      "explanation": "The occurrence of bradycardia accompanied by symptoms suggests circulatory dysfunction or a drug side effect, and must be reported immediately."
+    },
+    {
+      "id": "Q3",
+      "type": "scenario",
+      "question": "Scenario: Uncle Liu has a high fever of 39.5℃, and the caregiver uses an ice pack for cooling. Which of the following practices is correct?",
+      "options": [
+        "A. Place the ice pack directly on the chest",
+        "B. Wrap the ice pack in a towel and place it on the forehead or neck",
+        "C. Heat it before use to slow down the irritation",
+        "D. Placing it on the sole of the foot has a better effect"
+      ],
+      "answer": "B",
+      "explanation": "Ice packs should be used with a towel barrier and placed on areas rich in large blood vessels such as the forehead or neck, avoiding irritation to the precordial area."
+    },
+    {
+      "id": "Q4",
+      "type": "why",
+      "question": "Why is midstream urine collected when collecting a urine specimen?",
+      "options": [
+        "A. Easier to collect",
+        "B. To reduce external genital contamination and improve testing accuracy",
+        "C. More urine volume",
+        "D. More accurate for checking glomerular function"
+      ],
+      "answer": "B",
+      "explanation": "Midstream urine avoids contamination from the anterior urethra, ensuring the test result represents the characteristics of the bladder urine."
+    },
+    {
+      "id": "Q5",
+      "type": "when",
+      "question": "When handling a patient's vomitus, which situation requires immediate reporting?",
+      "options": [
+        "A. Vomitus is yellowish-green",
+        "B. Vomitus is coffee-ground or bright red",
+        "C. Weakness after vomiting but clear consciousness",
+        "D. Vomitus contains a small amount of foam"
+      ],
+      "answer": "B",
+      "explanation": "Coffee-ground or bright red vomitus suggests gastrointestinal bleeding and should be reported to the doctor immediately."
+    },
+    {
+      "id": "Q6",
+      "type": "scenario",
+      "question": "Scenario: A patient with a respiratory tract infection has yellowish-green and foul-smelling sputum. The correct action by the caregiver is:",
+      "options": [
+        "A. Immediately handle with chlorine-containing disinfectant and report to the doctor",
+        "B. Clean up later all at once",
+        "C. Dilute with clear water and pour into the sewer",
+        "D. Retain part of the sputum and sterilize it with heat"
+      ],
+      "answer": "A",
+      "explanation": "Yellowish-green and foul-smelling sputum suggests infection and needs to be disinfected with a chlorine solution and reported to prevent cross-infection."
+    },
+    {
+      "id": "Q7",
+      "type": "why",
+      "question": "Why should protective isolation be implemented for immunocompromised patients?",
+      "options": [
+        "A. To facilitate the management of daily necessities",
+        "B. To allow the patient to rest assuredly",
+        "C. To prevent infection from external pathogens and reduce the risk of cross-infection",
+        "D. To prevent family members from disturbing"
+      ],
+      "answer": "C",
+      "explanation": "This population has low resistance and should be isolated from the outside world to prevent infection."
+    },
+    {
+      "id": "Q8",
+      "type": "when",
+      "question": "When should the fall risk be re-assessed for a bedridden patient?",
+      "options": [
+        "A. Once a week",
+        "B. After every medication adjustment or change in condition",
+        "C. Only after the patient has fallen",
+        "D. During the pre-discharge re-examination"
+      ],
+      "answer": "B",
+      "explanation": "Medication adjustments or changes in health status can alter balance and consciousness, requiring a re-assessment of risk."
+    },
+    {
+      "id": "Q9",
+      "type": "scenario",
+      "question": "Scenario: A diabetic patient experiences hand tremors, sweating, and palpitations. The caregiver should:",
+      "options": [
+        "A. Immediately supplement with 15-20g of glucose and monitor blood sugar",
+        "B. Observe for one hour and then measure blood sugar",
+        "C. Let the patient lie down and rest without intervention",
+        "D. Report to the doctor but do not intervene"
+      ],
+      "answer": "A",
+      "explanation": "Typical symptoms of hypoglycemia require immediate sugar supplementation to prevent loss of consciousness."
+    },
+    {
+      "id": "Q10",
+      "type": "multi",
+      "question": "Which of the following measures help prevent pressure injuries? (Multiple Choice)",
+      "options": [
+        "A. Turn every 2 hours",
+        "B. Use a pressure-reducing cushion or air mattress",
+        "C. Drag the patient when turning for convenience and effort saving",
+        "D. Keep the bed linen dry and flat",
+        "E. Continue massaging when redness is found to promote blood flow"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "Turning, pressure-reducing cushions, and keeping the area dry are key; dragging and massaging can worsen skin damage."
+    },
+    {
+      "id": "Q11",
+      "type": "why",
+      "question": "Why is the tube feeding tube flushed with warm water before and after medication administration?",
+      "options": [
+        "A. To ensure drug efficacy",
+        "B. To prevent drug residue from blocking the tube",
+        "C. To reduce the drug taste",
+        "D. To increase drug absorption speed"
+      ],
+      "answer": "B",
+      "explanation": "Flushing the tube with warm water prevents drug crystallization or precipitation from blocking the tube, which is a key step for safe drug administration."
+    },
+    {
+      "id": "Q12",
+      "type": "when",
+      "question": "In which situation should passive limb activity training be suspended?",
+      "options": [
+        "A. The patient is mildly fatigued",
+        "B. The patient reports a pain score of $>5$",
+        "C. The patient sweats but has no other symptoms",
+        "D. The caregiver is temporarily busy"
+      ],
+      "answer": "B",
+      "explanation": "A pain score of $>5$ suggests a risk of joint or muscle injury, and training should be suspended and assessed."
+    },
+    {
+      "id": "Q13",
+      "type": "scenario_chain",
+      "question": "Chain Scenario: An elderly person suddenly develops hypoglycemia at night, with hand tremors and sweating.\n① What should be the first reaction?\n② If there is no relief after sugar supplementation, what action should be taken?",
+      "steps": [
+        {
+          "step": 1,
+          "options": [
+            "A. Immediately supplement with a sugary drink",
+            "B. Rest first and observe",
+            "C. Measure body temperature",
+            "D. Notify family members"
+          ],
+          "answer": "A"
+        },
+        {
+          "step": 2,
+          "options": [
+            "A. Supplement with sugar again and report to the doctor",
+            "B. Immediately change the anti-diabetic medication",
+            "C. Let the patient sleep and rest",
+            "D. Give a hot water foot soak for relief"
+          ],
+          "answer": "A"
+        }
+      ],
+      "explanation": "Hypoglycemia emergency treatment is two steps: first supplement with sugar, and if there is no relief, supplement with sugar again and report immediately."
+    },
+    {
+      "id": "Q14",
+      "type": "scenario",
+      "question": "Scenario: When administering eye drops to a patient, which of the following practices is correct?",
+      "options": [
+        "A. Keep the dropper tip about 1cm away from the eye",
+        "B. Drop the affected eye first, then the unaffected eye",
+        "C. Avoid touching the eyelashes when dropping the medicine",
+        "D. Immediately rub the eye after dropping to help absorption"
+      ],
+      "answer": "C",
+      "explanation": "Avoiding touching the eyelashes when dropping the medicine prevents contamination of the medication. The correct sequence should be the unaffected eye first, then the affected eye."
+    }
+  ]
+}

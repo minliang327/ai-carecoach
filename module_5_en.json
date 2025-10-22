@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "name": "1. Communication and Spiritual Comfort",
+      "units": [
+        {
+          "name": "Communication with Long-Term Care Recipients and Family Members (Senior)",
+          "core_points": [
+            {
+              "what": "Conflict Resolution: Negotiate with empathy and a calm attitude, seek third-party support if necessary.",
+              "why": "Conflict often stems from cognitive differences and emotional tension; empathetic communication can ease opposition, restoring trust and cooperation.",
+              "when": "When the care recipient or family member speaks emotionally or defensively, pause the argument, first provide emotional comfort, then clarify the facts.",
+              "scenario": "Grandma Li gets angry because her bathing time is delayed, the caregiver calmly responds: 'I understand you've waited too long, we will immediately prepare hot water for you.' Her emotions gradually calm down."
+            },
+            {
+              "what": "Communication Skills: Use more open-ended questions (e.g., 'Where do you feel uncomfortable?'), active listening, and confirmation feedback.",
+              "why": "Open-ended questions gather more information, and active listening builds trust and reduces misunderstandings.",
+              "when": "Avoid closed-ended questions when providing health education, emotional comfort, or assessing needs.",
+              "scenario": "The caregiver asks: 'Do you feel more tired today than yesterday?' The elderly person answers 'A little,' the caregiver follows up and records the situation, assisting the doctor in assessing the degree of fatigue."
+            },
+            {
+              "what": "Non-verbal Communication: Maintain smiling, appropriate eye contact (30%-60% of the time), and lean forward to show attention.",
+              "why": "Non-verbal signals account for more than 70% of communication information, conveying respect and a sense of support.",
+              "when": "Prioritize using facial expressions and posture to convey understanding when dealing with cognitive impairment or difficulty in verbal expression.",
+              "scenario": "A patient with dementia cannot express emotions, the caregiver gently nods, smiles, and holds their hand in response, allowing them to calm down."
+            },
+            {
+              "what": "Communication Boundaries: Avoid over-promising or emotional entanglement, maintain professional warmth.",
+              "why": "Care relationship boundaries help protect the psychological safety and professional role clarity of both parties.",
+              "when": "Proactively seek supervision when feeling intensely emotionally involved or entangled in family disputes.",
+              "scenario": "A family member repeatedly makes emotional accusations against the caregiver, who remains calm and reports to the supervisor for coordination."
+            }
+          ]
+        },
+        {
+          "name": "Abnormal Emotion Identification and Reporting (Senior)",
+          "core_points": [
+            {
+              "what": "Emotion Identification: Anger (loud voice, clenched fists), sadness (low tone, crying), fear (body stiffness, avoidance), anxiety (fidgeting, rapid heart rate).",
+              "why": "Emotional abnormalities are signals of psychological or physiological imbalance; early identification prevents behavioral loss of control or psychological crisis.",
+              "when": "Record and report if the emotion persists for more than 2 days or is accompanied by physiological abnormalities (decreased appetite, insomnia, heart rate changes).",
+              "scenario": "The caregiver notices the elderly person has been silent and had difficulty sleeping for the past two days, promptly records it and reminds the psychological counselor to intervene."
+            },
+            {
+              "what": "Psychological Counseling: Focus on listening, empathy, and positive guidance, supplemented by relaxation training (deep breathing, music therapy).",
+              "why": "Listening and empathy reduce emotional tension; relaxation training alleviates anxiety and tension responses.",
+              "when": "Intervention is most effective in the early stages of emotional agitation; stop individual counseling and seek professional help if aggressive behavior or severe depressive tendencies appear.",
+              "scenario": "An anxious elderly person repeatedly worries about family members, the caregiver accompanies them through deep breathing exercises and plays soothing music, which visibly reduces their anxiety."
+            },
+            {
+              "what": "Crisis Communication: Maintain a safe distance and call for support for intense emotions (such as crying, food refusal, or harming others).",
+              "why": "Patient self-control decreases during the emotional crisis phase, the caregiver's primary goal is safety protection.",
+              "when": "Immediately report and record the detailed process if aggressive behavior, medication refusal, or threats of self-harm occur.",
+              "scenario": "The caregiver finds the patient holding scissors and being emotionally agitated, immediately calls a colleague for assistance and moves other elderly people away."
+            },
+            {
+              "what": "Report Content: Record the emotion type, duration, triggering event, associated symptoms, and treatment measures.",
+              "why": "Complete documentation helps with subsequent psychological assessment and tracking of nursing interventions.",
+              "when": "Report significant emotional fluctuation cases before the daily shift handover.",
+              "scenario": "The caregiver fills in the handover record: 'Aunt Wang's anxiety has lasted for 2 days, her sleep has improved after relaxation training.'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

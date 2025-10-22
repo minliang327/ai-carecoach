@@ -1,0 +1,79 @@
+{
+  "content": [
+    {
+      "name": "1. Cleaning Care",
+      "units": [
+        {
+          "name": "Basic Cleaning (Junior)",
+          "core_points": [
+            {
+              "what": "Hair Combing: Use a wide-tooth wooden comb, comb in the direction of hair growth; place a dry towel under the pillow for bedridden patients.",
+              "why": "Combing in the direction of hair growth avoids pulling hair follicles; the elderly have thin scalps and fragile hair, reverse combing can easily damage the scalp.",
+              "when": "Combing for bedridden elderly should be done after morning care; postpone combing if the patient has scalp wounds or rashes.",
+              "scenario": "Caregiver Xiao Li notices red spots on the scalp while combing Grandma Wang's hair, should stop combing and report to the nurse."
+            },
+            {
+              "what": "Facial Cleaning: Water temperature 38-40℃, sequence is eyes, forehead, nose, cheeks, neck.",
+              "why": "The correct sequence prevents the spread of dirt and maintains the skin barrier function.",
+              "when": "Avoid using soap and alkaline cleansers if the elderly person's skin is dry or has dermatitis.",
+              "scenario": "During cleaning, the caregiver finds the elderly person's skin itchy, should switch to wiping with warm water and report."
+            },
+            {
+              "what": "Hand and Foot Cleaning: For bedridden patients, wash the far side first, then the near side; soak feet for 15-30 minutes, preferably before sleep.",
+              "why": "Washing the far side first reduces changes in body position, preventing fatigue; foot bath promotes blood circulation and sleep.",
+              "when": "For patients with diabetes or varicose veins, water temperature should not exceed 40℃, and soaking time should be $\\le$ 15 minutes.",
+              "scenario": "The water temperature is 42℃ while the caregiver is soaking the feet of a diabetic patient, and the patient complains of scalding; the caregiver should immediately stop and measure skin temperature."
+            },
+            {
+              "what": "Oral Hygiene: Adopt a sitting or semi-sitting position; brushing should be done 30 minutes after a meal, for no less than 3 minutes.",
+              "why": "30 minutes after a meal avoids acid environment damage to tooth enamel; the sitting position prevents aspiration.",
+              "when": "Bedridden elderly should adopt a semi-sitting position; use the cotton swab wiping method for those with impaired consciousness.",
+              "scenario": "Grandpa Wang asks to brush his teeth immediately after a meal; the caregiver explains the reason for delaying 30 minutes to protect tooth enamel."
+            },
+            {
+              "what": "Denture Care: Remove, clean, and soak in cold water before sleep; forbidden to soak in alcohol or hot water.",
+              "why": "Hot water can easily deform dentures, and alcohol can corrode the material; soaking in cold water maintains cleanliness and shape.",
+              "when": "If dentures are found to be loose or have an odor, suspend use and report for replacement.",
+              "scenario": "Aunt Li reports pain after wearing dentures; the caregiver should check for damage and suggest a follow-up appointment."
+            },
+            {
+              "what": "Full Body Cleaning: Bedside bathing water temperature 38-40℃, duration 10-20 minutes; perineal cleaning sequence is from front to back.",
+              "why": "Maintaining stable water temperature prevents hypothermia; front-to-back cleaning prevents cross-infection.",
+              "when": "Patients with hypertension or heart failure should use segment-based bathing, each session no more than 10 minutes.",
+              "scenario": "During bathing, the patient turns pale and sweats; the caregiver should immediately stop and measure vital signs."
+            }
+          ]
+        },
+        {
+          "name": "Special Cleaning (Intermediate)",
+          "core_points": [
+            {
+              "what": "Oral Hygiene for Tube-Fed Patients: Twice a day, using the cotton swab method; cotton swabs must not be reused.",
+              "why": "The cotton swab method reduces the gag reflex; avoids cross-infection.",
+              "when": "Reduce frequency and perform gently if the patient has bleeding tendencies or oral ulcers.",
+              "scenario": "The caregiver finds bleeding in the patient's mouth during the procedure, should immediately stop and inform the nurse."
+            },
+            {
+              "what": "Indwelling Catheter Perineal Cleaning: Once a day, water temperature 38-40℃; do not use medicated solutions or soap solutions.",
+              "why": "Medicated solutions can easily disrupt the mucosal acid-base balance; soap solution irritates the urethral mucosa.",
+              "when": "Increase cleaning frequency if there is discharge or odor around the catheter.",
+              "scenario": "The caregiver finds discharge at the catheter exit, should wipe with warm water and record the situation."
+            },
+            {
+              "what": "Male Cleaning Sequence: Start from the urethral opening, clean the penis and groin from inside out, and top to bottom.",
+              "why": "Inside-out avoids urethral contamination; retracting the foreskin prevents infection caused by smegma.",
+              "when": "Stop retracting and report to the doctor if the patient has a tight foreskin or pain.",
+              "scenario": "The caregiver finds the patient wincing in pain during cleaning, should immediately stop and assess for redness or swelling."
+            },
+            {
+              "what": "Female Cleaning Sequence: From top to bottom, inside to outside; wipe the catheter's surfaces for at least 5cm.",
+              "why": "The correct direction prevents urethral contamination and protects vaginal and urethral mucosa.",
+              "when": "Increase cleaning frequency to twice a day during menstruation or increased discharge.",
+              "scenario": "The caregiver finds increased discharge and adjusts the cleaning frequency according to doctor's orders and records it."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

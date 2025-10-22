@@ -1,0 +1,107 @@
+{
+  "content": [
+    {
+      "name": "1. Daily Activity Guidance",
+      "units": [
+        {
+          "name": "Turning Guidance and Training (Intermediate)",
+          "core_points": [
+            {
+              "what": "Purpose: Exercise the strength and coordination of the abdominal, back, shoulder, and hip muscles, improve blood circulation, and prevent pressure injuries.",
+              "why": "Long-term bedridden patients have reduced muscle tone and slow circulation; regular turning prevents local tissue ischemia and necrosis.",
+              "when": "Turn once if bedridden for more than 2 hours; follow medical advice and use logrolling for post-operative or fracture patients.",
+              "scenario": "The caregiver assists with turning every two hours, finds redness on the sacrococcygeal skin, immediately changes to side-lying, and pads with a soft pillow to relieve pressure."
+            },
+            {
+              "what": "Method: Instruct the patient to use the unaffected foot to move the affected leg, cross the hands overhead, and use momentum to turn towards the affected or unaffected side.",
+              "why": "Using momentum reduces caregiver effort and encourages patient participation in muscle training.",
+              "when": "Applicable for patients with mild to moderate hemiplegia or muscle strength $\\ge$ Grade 3; not applicable for patients with impaired consciousness or fractures.",
+              "scenario": "During rehabilitation training, the patient tries to turn actively, the caregiver assists to prevent falling and provides encouragement."
+            },
+            {
+              "what": "Notes: Lock the bed wheels and smooth the bed linens before turning; be gentle during turning, avoid dragging.",
+              "why": "Stable bed prevents falls; gentle movements prevent skin friction and joint sprains.",
+              "when": "Immediately stop and readjust the position if tube lines are pulled or pain is reported during turning.",
+              "scenario": "The infusion line is pulled during turning, the caregiver pauses the operation and re-secures the infusion stand."
+            }
+          ]
+        },
+        {
+          "name": "Feeding Guidance and Training (Intermediate)",
+          "core_points": [
+            {
+              "what": "Swallowing Assessment: Use the EAT-10 scale or the Kubota Water Swallowing Test to assess dysphagia.",
+              "why": "Early detection of dysphagia can prevent aspiration and aspiration pneumonia.",
+              "when": "If the patient coughs, chokes, drools, or has a hoarse voice before eating, pause feeding and report.",
+              "scenario": "The caregiver finds the patient chokes during the water swallowing test, immediately stops and reports to the nurse for assessment."
+            },
+            {
+              "what": "Diet Adjustment: Follow the principle of 'from thin to thick,' gradually transition from liquid, semi-liquid to soft food.",
+              "why": "Gradual transition helps restore swallowing function and reduces the risk of aspiration.",
+              "when": "Diet consistency should be individualized for post-operative, stroke, or Parkinson's patients.",
+              "scenario": "During the swallowing training period, the patient transitions from rice soup to egg custard; the caregiver observes smooth swallowing and records the improvement."
+            },
+            {
+              "what": "Posture Guidance: Adopt a sitting position or raise the head of the bed to 30-45° when eating, head slightly tilted forward.",
+              "why": "The forward tilt position helps close the epiglottis, preventing aspiration.",
+              "when": "Maintain the position for 30 minutes after each meal; immediately stop feeding if the patient chokes.",
+              "scenario": "The caregiver finds the patient coughs slightly during feeding, immediately stops, performs back tapping, and cleans the mouth."
+            },
+            {
+              "what": "Psychological Support: Encourage the patient to eat independently and build confidence in eating.",
+              "why": "Positive psychology can improve appetite and swallowing coordination.",
+              "when": "Provide positive feedback and short training sessions daily during the initial training phase.",
+              "scenario": "The caregiver praises the patient for eating half a bowl of congee independently with a spoon, and the patient smiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Functional Training (Senior)",
+      "units": [
+        {
+          "name": "Active and Passive Limb Activity Guidance (Senior)",
+          "core_points": [
+            {
+              "what": "Active Activities: The patient independently performs limb flexion, extension, abduction, and rotation to enhance blood circulation and joint flexibility.",
+              "why": "Active movement stimulates muscle contraction, promoting venous return and joint nutrient supply.",
+              "when": "Applicable for patients with muscle strength $\\ge$ Grade 3; assess endurance before exercise for patients with hypertension or heart failure.",
+              "scenario": "The caregiver guides the elderly person to perform 10 minutes of ankle pump and fist-clenching exercises daily, recording the muscle strength improvement."
+            },
+            {
+              "what": "Upper Limb Training: Follow the sequence from the unaffected side to the affected side, and from large joints to small joints (shoulder $\\rightarrow$ elbow $\\rightarrow$ wrist $\\rightarrow$ fingers).",
+              "why": "Gradual training aids neuromuscular re-coordination and prevents compensatory force.",
+              "when": "Observe for pain and joint range of motion before and after training; stop training if the pain score is $>5$.",
+              "scenario": "The patient reports soreness after shoulder movement, the caregiver reduces the range of motion and applies a hot compress."
+            },
+            {
+              "what": "Lower Limb Training: Perform ankle pump, leg lifts, and hip flexion to prevent deep vein thrombosis.",
+              "why": "Ankle pump exercises promote venous return in the lower limbs, reducing the risk of thrombosis.",
+              "when": "Bedridden patients for more than 3 days should perform ankle pump exercises 3 times daily; stop training and report if swelling or pain in the lower leg occurs.",
+              "scenario": "The caregiver finds the patient's lower leg is swollen, immediately stops lower limb training and assists the doctor with examination."
+            },
+            {
+              "what": "Passive Activities: The caregiver assists with limb flexion and extension to maintain the joint range of motion.",
+              "why": "Prevents joint stiffness and tendon contracture, laying the foundation for subsequent active training.",
+              "when": "Implement twice daily for patients with impaired consciousness, hemiplegia, or prolonged bed rest; the force should not exceed the physiological range during the operation.",
+              "scenario": "The caregiver gently performs shoulder and elbow flexion/extension for the bedridden elderly person, with no discomfort reported throughout the passive activity."
+            },
+            {
+              "what": "Training Precautions: Maintain stable breathing during exercise, avoid breath-holding; assess heart rate and blood pressure after training.",
+              "why": "Breath-holding increases intrathoracic pressure, affecting venous return; monitoring prevents cardiovascular events.",
+              "when": "Stop training if heart rate increases by $>30$ beats/min compared to the resting state or if blood pressure fluctuates by $>20 \text{mmHg}$.",
+              "scenario": "The elderly person has rapid breathing during training, the caregiver pauses and assists them to lie flat and rest."
+            },
+            {
+              "what": "Rehabilitation Assessment: Quantify progress using the BBS balance scale, muscle strength grading, and Activities of Daily Living (ADL) assessment.",
+              "why": "Objective assessment helps guide the adjustment of individualized rehabilitation plans.",
+              "when": "Re-evaluate once a week; adjust the plan if deterioration or new symptoms are found.",
+              "scenario": "The caregiver records the BBS score increasing from 28 to 36, indicating improved balance function."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

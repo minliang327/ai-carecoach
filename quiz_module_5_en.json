@@ -1,0 +1,217 @@
+{
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "why",
+      "question": "Why should emotion be prioritized over the problem in communication conflicts?",
+      "options": [
+        "A. Solving the problem requires more people to be involved",
+        "B. Rational communication is difficult when emotions are not acknowledged",
+        "C. Calming emotions first saves time",
+        "D. This is a requirement of the nursing procedure"
+      ],
+      "answer": "B",
+      "explanation": "When the care recipient or family member is emotionally agitated, the brain is in a defensive state; rational discussion can only proceed after the emotion is understood."
+    },
+    {
+      "id": "Q2",
+      "type": "when",
+      "question": "When communicating with family members, when should the conversation be paused and reported to a superior?",
+      "options": [
+        "A. The family member is emotional but still willing to listen",
+        "B. The conflict escalates, and abusive or threatening behavior occurs",
+        "C. The family member speaks quickly",
+        "D. The caregiver feels nervous and uneasy"
+      ],
+      "answer": "B",
+      "explanation": "Abusive or threatening behavior goes beyond the scope of general communication; the conversation should be stopped immediately, reported to a superior, and personal safety ensured."
+    },
+    {
+      "id": "Q3",
+      "type": "scenario",
+      "question": "Scenario: Grandma Wang is emotionally low, silent for two days, and refuses to eat. The caregiver should:",
+      "options": [
+        "A. Force-feed to prevent malnutrition",
+        "B. Ask for the reason, listen to her expression, and report to a psychologist if necessary",
+        "C. Consider it an emotional fluctuation that requires no action",
+        "D. Administer sedative medication"
+      ],
+      "answer": "B",
+      "explanation": "Two consecutive days of emotional low suggests a risk of depression; listening, empathy, and reporting to a mental health professional are required."
+    },
+    {
+      "id": "Q4",
+      "type": "why",
+      "question": "Why use more open-ended questions during communication?",
+      "options": [
+        "A. To easily control the pace of the conversation",
+        "B. To obtain more information and encourage the other party to express true feelings",
+        "C. To appear more professional",
+        "D. To reduce misunderstandings"
+      ],
+      "answer": "B",
+      "explanation": "Open-ended questions allow the care recipient to express freely, promoting a deep understanding of their needs and emotions."
+    },
+    {
+      "id": "Q5",
+      "type": "multi",
+      "question": "Which of the following are effective non-verbal communication methods? (Multiple Choice)",
+      "options": [
+        "A. Smiling and nodding",
+        "B. Maintaining appropriate eye contact (30%-60% of the time)",
+        "C. Closer distance better expresses care",
+        "D. Lightly patting the shoulder or shaking hands (with the recipient's permission)",
+        "E. Frequent touching for comfort"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "Non-verbal communication emphasizes respect and moderate expression. Maintaining a smile, eye contact, and light patting or handshaking are positive signals."
+    },
+    {
+      "id": "Q6",
+      "type": "when",
+      "question": "When an elderly person frequently presses the call bell out of fear of being alone, when should psychological counseling be intervened?",
+      "options": [
+        "A. Immediately upon the first occurrence",
+        "B. When the behavior persists for more than two days and affects daily routine",
+        "C. When it occurs only at night, it can be ignored",
+        "D. When the caregiver has free time"
+      ],
+      "answer": "B",
+      "explanation": "Persistent interfering behavior suggests anxiety; psychological support should be intervened to help establish a sense of security."
+    },
+    {
+      "id": "Q7",
+      "type": "scenario",
+      "question": "Scenario: A family member emotionally accuses the caregiver, 'You don't care about the elderly.' The correct communication approach is:",
+      "options": [
+        "A. Immediately refute and explain the heavy workload",
+        "B. Remain calm, first express understanding, then explain the situation",
+        "C. Directly ask the family member to leave the ward",
+        "D. Remain silent to avoid conflict"
+      ],
+      "answer": "B",
+      "explanation": "Expressing understanding first ('I understand your concern') before explaining the situation can alleviate conflict and restore communication."
+    },
+    {
+      "id": "Q8",
+      "type": "why",
+      "question": "Why do caregivers need to maintain 'professional boundaries'?",
+      "options": [
+        "A. To avoid excessive emotional burden from becoming too close to the care recipient",
+        "B. To prevent family members from interfering with work plans",
+        "C. To increase efficiency",
+        "D. To reduce communication time"
+      ],
+      "answer": "A",
+      "explanation": "Maintaining professional boundaries prevents emotional entanglement, protecting the caregiver's mental health and professional objectivity."
+    },
+    {
+      "id": "Q9",
+      "type": "scenario_chain",
+      "question": "Chain Scenario: The caregiver finds Uncle Zhang clenching his fists, flushed, and emotionally agitated during rounds.\n① What should be the first reaction?\n② If the patient suddenly gets up and yells loudly, what should be done?",
+      "steps": [
+        {
+          "step": 1,
+          "options": [
+            "A. Stand at a safe distance, and speak calmly to soothe him",
+            "B. Immediately grab his hand to prevent attack",
+            "C. Leave the scene without dealing with it",
+            "D. Shout loudly to stop him"
+          ],
+          "answer": "A"
+        },
+        {
+          "step": 2,
+          "options": [
+            "A. Call for support and report to the supervisor",
+            "B. Continue communicating and try to persuade him",
+            "C. Draw the curtains to distract him",
+            "D. Let the patient calm down by himself"
+          ],
+          "answer": "A"
+        }
+      ],
+      "explanation": "A safe distance and a calm tone should be used for emotionally agitated individuals; if the emotion escalates, support should be sought and reported immediately."
+    },
+    {
+      "id": "Q10",
+      "type": "multi",
+      "question": "Which of the following content should be included when recording an abnormal emotional report? (Multiple Choice)",
+      "options": [
+        "A. Type and manifestation of the emotion",
+        "B. Duration and triggering event",
+        "C. Personal emotional feelings",
+        "D. Nursing intervention and outcome",
+        "E. Evaluation of others"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "The report should objectively describe the type of emotion, duration, triggering event, and intervention results, excluding personal feelings or evaluations."
+    },
+    {
+      "id": "Q11",
+      "type": "scenario",
+      "question": "Scenario: When comforting an anxious elderly person, the person suddenly cries and says, 'I don't want to live anymore.' The correct action is:",
+      "options": [
+        "A. Console with 'Don't think nonsense' and then leave",
+        "B. Immediately accompany and report to a superior or mental health professional",
+        "C. Let the family member counsel first and then observe",
+        "D. Consider the elderly person emotional and ignore it"
+      ],
+      "answer": "B",
+      "explanation": "Suicidal ideation requires immediate reporting and continued presence to prevent accidents."
+    },
+    {
+      "id": "Q12",
+      "type": "why",
+      "question": "Why are listening and empathy more effective than comforting language?",
+      "options": [
+        "A. Because comfort easily leads to dependence",
+        "B. Listening allows the other party to feel understood, promoting emotional release and trust building",
+        "C. Comfort is easily misleading",
+        "D. This is a requirement for standard communication protocols"
+      ],
+      "answer": "B",
+      "explanation": "Empathy and listening can reach the root of the emotion, promoting psychological relaxation more effectively than simple comfort."
+    },
+    {
+      "id": "Q13",
+      "type": "when",
+      "question": "In which of the following situations should the caregiver immediately stop psychological counseling and report?",
+      "options": [
+        "A. The other party remains silent",
+        "B. The other party exhibits aggressive or self-harming words or actions",
+        "C. The other party cries",
+        "D. The other party refuses to communicate"
+      ],
+      "answer": "B",
+      "explanation": "Aggressive or self-harming behavior indicates a psychological crisis; communication should be immediately terminated and reported to the supervisor or psychologist."
+    },
+    {
+      "id": "Q14",
+      "type": "scenario",
+      "question": "Scenario: A caregiver provides spiritual comfort to a patient with dementia. Which of the following is the most appropriate action?",
+      "options": [
+        "A. Correcting their incorrect memories to help restore reality orientation",
+        "B. Going along with the topic, responding in a calm tone, and providing a sense of security",
+        "C. Trying to make them recall loss experiences to release emotions",
+        "D. Directly ignoring their conversation"
+      ],
+      "answer": "B",
+      "explanation": "For individuals with cognitive impairment, 'validation communication' should be used, going along with the emotion and conveying security and understanding."
+    },
+    {
+      "id": "Q15",
+      "type": "multi",
+      "question": "Which basic principles should the caregiver follow during crisis communication? (Multiple Choice)",
+      "options": [
+        "A. Safety protection is prioritized over persuasion",
+        "B. Stay calm and speak slowly",
+        "C. Move close to the other party to show sincerity",
+        "D. Call for support and record the incident process",
+        "E. Use a firm tone to establish authority"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "In a crisis situation, the primary tasks are safety protection and support; maintaining calmness, a steady pace of speech, and recording the entire process."
+    }
+  ]
+}

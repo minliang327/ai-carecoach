@@ -1,0 +1,217 @@
+{
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "why",
+      "question": "Why do bedridden elderly people need to be turned every 2 hours?",
+      "options": [
+        "A. To prevent muscle atrophy",
+        "B. To change the compressed area, promote local blood circulation, and prevent pressure ulcers",
+        "C. To increase sleep quality",
+        "D. To prevent excessive sweating"
+      ],
+      "answer": "B",
+      "explanation": "Prolonged pressure can cause tissue ischemia and necrosis. Regular turning restores blood flow and prevents pressure injuries."
+    },
+    {
+      "id": "Q2",
+      "type": "when",
+      "question": "For a patient bedridden after fracture surgery, when can turning training be performed?",
+      "options": [
+        "A. Immediately after surgery",
+        "B. Only when permitted by the doctor's orders, and use logrolling",
+        "C. Forced activity on the second day after surgery",
+        "D. Start after complete recovery"
+      ],
+      "answer": "B",
+      "explanation": "Post-operative patients need doctor's assessment and permission before turning, and logrolling should be used to prevent fracture displacement."
+    },
+    {
+      "id": "Q3",
+      "type": "scenario",
+      "question": "Scenario: The caregiver is turning a patient and finds the infusion line is pulled. What is the correct action?",
+      "options": [
+        "A. Continue turning to save time",
+        "B. Pause the operation, re-secure the line, and then continue",
+        "C. Let the patient move by themselves",
+        "D. Pull out the catheter to facilitate turning"
+      ],
+      "answer": "B",
+      "explanation": "Line pulling may lead to leakage or dislodgement, the operation should be stopped immediately, and the line re-secured and adjusted."
+    },
+    {
+      "id": "Q4",
+      "type": "why",
+      "question": "Why should dragging the patient's body be avoided when turning?",
+      "options": [
+        "A. It will wrinkle the bed linen",
+        "B. It may cause skin friction and shear force injury",
+        "C. It will make the patient scared",
+        "D. It easily wets the bed"
+      ],
+      "answer": "B",
+      "explanation": "Dragging causes skin friction with the bed surface, generating shear force and increasing the risk of skin breakdown."
+    },
+    {
+      "id": "Q5",
+      "type": "multi",
+      "question": "Which of the following measures help improve eating safety? (Multiple Choice)",
+      "options": [
+        "A. Adopt a sitting position or raise the head of the bed to $30-45^\circ$ when eating",
+        "B. Eat with the head slightly tilted forward",
+        "C. Food temperature should be higher than $45^\circ\text{C}$ to stimulate the swallowing reflex",
+        "D. Maintain the position for 30 minutes after each meal",
+        "E. Immediately stop feeding if choking occurs"
+      ],
+      "answer": ["A", "B", "D", "E"],
+      "explanation": "Correct position and posture prevent aspiration; maintaining a stable position after eating and stopping feeding when choking occurs are key safety measures."
+    },
+    {
+      "id": "Q6",
+      "type": "when",
+      "question": "When should feeding training be suspended?",
+      "options": [
+        "A. The patient is mildly fatigued",
+        "B. Choking or dyspnea occurs",
+        "C. Poor appetite",
+        "D. Food taste is not to the patient's liking"
+      ],
+      "answer": "B",
+      "explanation": "Choking or dyspnea suggests possible aspiration, feeding should be stopped immediately, and swallowing safety assessed."
+    },
+    {
+      "id": "Q7",
+      "type": "scenario",
+      "question": "Scenario: The caregiver guides the patient to perform ankle pump exercises. Which of the following operations is correct?",
+      "options": [
+        "A. Alternately lift the toes up and press them down, slowly and rhythmically",
+        "B. Kick the legs quickly to increase exercise intensity",
+        "C. Elevate the lower limbs and continuously tense the calf muscles without relaxing",
+        "D. Only train the unaffected side"
+      ],
+      "answer": "A",
+      "explanation": "Ankle pump exercises should be slow, rhythmic, and of moderate range, alternately flexing and extending the ankle joint to promote lower limb blood return."
+    },
+    {
+      "id": "Q8",
+      "type": "why",
+      "question": "Why should the caregiver's movements be slow and uniform during passive activities?",
+      "options": [
+        "A. To make the patient feel comfortable",
+        "B. To prevent muscle strain or joint injury",
+        "C. To save the caregiver's energy",
+        "D. To enhance the massage effect"
+      ],
+      "answer": "B",
+      "explanation": "Slow movements prevent excessive joint pulling, muscle spasms, and pain, which is the prerequisite for safe activity."
+    },
+    {
+      "id": "Q9",
+      "type": "when",
+      "question": "In which situation should limb activity training be stopped immediately?",
+      "options": [
+        "A. Mild sweating",
+        "B. Heart rate rises by more than 30 beats/min compared to the resting value or the patient reports pain $>5$ points",
+        "C. Slightly fast breathing",
+        "D. Mild limb soreness"
+      ],
+      "answer": "B",
+      "explanation": "Significant heart rate rise or severe pain suggests excessive exercise load, and training should be stopped immediately."
+    },
+    {
+      "id": "Q10",
+      "type": "multi",
+      "question": "Which of the following are correct practices for passive activities? (Multiple Choice)",
+      "options": [
+        "A. Twice daily, 5-10 repetitions for each joint each time",
+        "B. Keep the patient's limb relaxed during the operation",
+        "C. Ignore the pain reaction to increase the range of motion",
+        "D. Proceed in the order from large joints to small joints",
+        "E. Speed up the activity when joint stiffness is found"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "Passive activities should keep the limb relaxed, be performed slowly, and proceed from large joints to small joints, avoiding forced manipulation."
+    },
+    {
+      "id": "Q11",
+      "type": "scenario",
+      "question": "Scenario: The caregiver assists a hemiplegic elderly person with upper limb training. Which of the following is correct?",
+      "options": [
+        "A. Start with the affected side to promote recovery",
+        "B. Shoulder joint first, then elbow joint, then wrist joint",
+        "C. Perform fast movements during training to enhance stimulation",
+        "D. Only train the unaffected side to avoid pain"
+      ],
+      "answer": "B",
+      "explanation": "The training sequence should be from large joints to small joints, progressing gradually to prevent fatigue and injury."
+    },
+    {
+      "id": "Q12",
+      "type": "scenario_chain",
+      "question": "Chain Scenario: An elderly person suddenly complains of calf pain during passive lower limb training.\n① What should the caregiver do immediately?\n② If swelling worsens, what should be done?",
+      "steps": [
+        {
+          "step": 1,
+          "options": [
+            "A. Immediately stop training and elevate the affected limb",
+            "B. Continue training and observe the reaction",
+            "C. Massage forcefully to promote circulation",
+            "D. Let the patient get out of bed to move"
+          ],
+          "answer": "A"
+        },
+        {
+          "step": 2,
+          "options": [
+            "A. Continue to observe for 24 hours",
+            "B. Report to the doctor to rule out deep vein thrombosis",
+            "C. Strengthen lower limb movement",
+            "D. Apply a hot water bottle for warm compress"
+          ],
+          "answer": "B"
+        }
+      ],
+      "explanation": "Calf pain accompanied by swelling should raise suspicion of deep vein thrombosis, and activity must be stopped immediately and reported to the doctor."
+    },
+    {
+      "id": "Q13",
+      "type": "scenario",
+      "question": "Scenario: The caregiver guides a patient in swallowing training. Which of the following practices is incorrect?",
+      "options": [
+        "A. Tilt the head slightly forward when drinking water",
+        "B. Assess swallowing function before training",
+        "C. Pour water quickly into the mouth to stimulate swallowing",
+        "D. Gradually increase food consistency"
+      ],
+      "answer": "C",
+      "explanation": "Water should not be poured quickly to stimulate swallowing, as this can lead to aspiration; the speed should be controlled, and the reaction observed."
+    },
+    {
+      "id": "Q14",
+      "type": "why",
+      "question": "Why measure heart rate and blood pressure after rehabilitation training?",
+      "options": [
+        "A. To know if the exercise volume is up to standard",
+        "B. To assess exercise tolerance and cardiovascular response",
+        "C. To record the nursing workload",
+        "D. To facilitate the arrangement of the next training session"
+      ],
+      "answer": "B",
+      "explanation": "Monitoring heart rate and blood pressure helps identify over-exertion or potential cardiovascular risks in a timely manner."
+    },
+    {
+      "id": "Q15",
+      "type": "multi",
+      "question": "Which of the following are indicators for assessing rehabilitation progress? (Multiple Choice)",
+      "options": [
+        "A. BBS balance score",
+        "B. Muscle Strength Grading (MMT)",
+        "C. Body temperature changes",
+        "D. Activities of Daily Living (ADL) assessment",
+        "E. Frequency of medication use"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "Balance, muscle strength, and activities of daily living are the three core indicators for rehabilitation assessment."
+    }
+  ]
+}

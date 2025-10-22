@@ -1,0 +1,167 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  display: flex;
+  background-color: #f6f8fb;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background-color: #fff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  overflow-y: auto;
+}
+.sidebar h2 {
+  color: #007bff;
+  font-size: 1.2em;
+  border-bottom: 2px solid #007bff33;
+  padding-bottom: 5px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.sidebar ul li:hover {
+  background-color: #e9f2ff;
+}
+.progress-bar {
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 18px;
+  margin-top: 10px;
+}
+#progressFill {
+  width: 0%;
+  height: 100%;
+  background-color: #28a745;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+  line-height: 18px;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 30px;
+}
+.tabs {
+  display: flex;
+  background-color: #f0f4fa;
+  padding: 10px 20px;
+}
+.tab-button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  background: #e9f2ff;
+  border-radius: 5px 5px 0 0;
+  font-weight: bold;
+  color: #555;
+}
+.tab-button.active {
+  background: #fff;
+  color: #007bff;
+  border-bottom: 2px solid white;
+}
+.tab-content {
+  background: #fff;
+  border-radius: 0 5px 5px 5px;
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Assistant chat */
+#assistant {
+  border-top: 1px solid #ddd;
+  background: #fafafa;
+  padding: 15px;
+}
+#chatBox {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  height: 180px;
+  overflow-y: auto;
+}
+.msg {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 90%;
+}
+.msg.ai {
+  background-color: #e9f7ef;
+  color: #155724;
+}
+.msg.user {
+  background-color: #cce5ff;
+  color: #004085;
+  align-self: flex-end;
+}
+.chat-input {
+  display: flex;
+  margin-top: 10px;
+}
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.chat-input button {
+  margin-left: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+/* Quiz */
+.question {
+  background: #fdfdfd;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.feedback {
+  margin-top: 8px;
+  padding: 6px;
+  border-radius: 5px;
+}
+.feedback.correct {
+  background: #d4edda;
+  color: #155724;
+}
+.feedback.incorrect {
+  background: #f8d7da;
+  color: #721c24;
+}

@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI CareCoach 智能培训平台</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 侧边栏 */
+.sidebar {
+  width: 280px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+  box-shadow: 4px 0 20px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+
+.sidebar-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 25px 15px;
+  text-align: center;
+  color: white;
+  position: relative; 
+}
+
+.sidebar-header h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.sidebar-header p {
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+/* 语言切换器容器 - 移到主内容区上方并居中 */
+.main-lang-switcher-container {
+  text-align: center;
+  margin: -15px 0 20px 0; 
+  animation: fadeIn 0.6s ease;
+}
+
+.lang-switcher {
+  display: inline-flex; 
+  gap: 5px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.lang-btn {
+  padding: 5px 12px;
+  border: none;
+  background: transparent;
+  color: #fff; 
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.lang-btn.active {
+  background: white;
+  color: #667eea;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* 模块领域头部样式 */
+.module-domain-header {
+  padding: 15px;
+  font-weight: 700;
+  border-bottom: 2px solid #e0e0e0;
+  margin-top: 15px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding-left: 20px;
+  background: linear-gradient(90deg, #e3f2fd 0%, #ffffff 100%);
+  color: #1e88e5;
+  border-left: 5px solid #1e88e5;
+}
+
+.module {
+  border-bottom: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.module-header {
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(90deg, #f8f9fa 0%, #ffffff 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.module-header.module-domain-header {
+    background: linear-gradient(90deg, #e3f2fd 0%, #ffffff 100%);
+    color: #1e88e5;
+    border-left: 5px solid #1e88e5;
+    margin-top: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.module-header.locked {
+  background: #fdfdfd;
+  color: #aaa;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.module-header:hover {
+  background: linear-gradient(90deg, #e3f2fd 0%, #f8f9fa 100%);
+  transform: translateX(5px);
+}
+
+.module-header.locked:hover {
+  background: #fdfdfd;
+  transform: none;
+}
+
+
+.module-header .icon {
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}
+
+.module-header.expanded .icon {
+  transform: rotate(180deg);
+}
+
+.module-content {
+  display: none;
+  padding: 10px 15px;
+  background-color: #fafafa;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.module-desc {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 10px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.sub-course {
+  padding: 10px 12px;
+  /* border-left 将由 JS 动态设置颜色 */
+  border-left: 3px solid #ccc; 
+  background: linear-gradient(90deg, #e8eaf6 0%, #f5f5f5 100%);
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative; /* 确保内部进度条定位 */
+}
+
+.sub-course:hover {
+  background: linear-gradient(90deg, #c5cae9 0%, #e8eaf6 100%);
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.sub-course.locked {
+  cursor: not-allowed;
+  background: #eee;
+  opacity: 0.5;
+  border-left: 3px solid #d32f2f !important; /* 强制锁定颜色 */
+}
+
+.sub-course.locked:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+
+.progress-container {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.8s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* 主内容区 */
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  animation: fadeInDown 0.6s ease;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  margin-bottom: 10px;
+}
+
+.header .subtitle {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.1em;
+}
+
+/* 标签页 */
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  animation: fadeIn 0.6s ease 0.2s both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.tab-button {
+  flex: 1;
+  padding: 15px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.9);
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.tab-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.tab-button:hover::before {
+  left: 100%;
+}
+
+.tab-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.tab-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.5);
+}
+
+.tab-content {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  min-height: 400px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  animation: fadeInUp 0.6s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 学习总结页 */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  transition: all 0.6s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.5);
+}
+
+.stat-card:hover::before {
+  top: -100%;
+  right: -100%;
+}
+
+.stat-icon {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.stat-value {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+.chart-container {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.achievement-badge {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.achievement-badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.achievement-badge.unlocked {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+}
+
+.achievement-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.achievement-name {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+/* 加载骨架屏 */
+.loading-skeleton {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* 小护助教 */
+#assistant-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 5px 25px rgba(102, 126, 234, 0.5);
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+#assistant-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 35px rgba(102, 126, 234, 0.7);
+}
+
+#assistant-window {
+  position: fixed;
+  right: 30px;
+  bottom: 110px;
+  width: 380px;
+  height: 520px;
+  display: none;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.3);
+  z-index: 9998;
+  animation: slideInUp 0.4s ease;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#assistant-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px;
+  border-radius: 20px 20px 0 0;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#assistant-header span {
+  cursor: pointer;
+  font-size: 1.5em;
+  transition: transform 0.2s ease;
+}
+
+#assistant-header span:hover {
+  transform: scale(1.2);
+}
+
+/* 新增的清除按钮样式 */
+#clearHistoryBtn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#clearHistoryBtn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+#chatBox {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg {
+  padding: 12px 16px;
+  border-radius: 15px;
+  line-height: 1.5;
+  max-width: 80%;
+  animation: messageIn 0.3s ease;
+}
+
+@keyframes messageIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.msg.user {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 5px;
+}
+
+.msg.ai {
+  background: white;
+  align-self: flex-start;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 快速问题按钮样式 */
+.quick-question-btn {
+  background: #eef2ff; /* 浅蓝色背景 */
+  color: #3b82f6; /* 蓝色文字 */
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.quick-question-btn:hover {
+  background: #dbeafe;
+}
+
+.quick-question-btn:active {
+  transform: scale(0.98);
+}
+
+
+#assistant-input {
+  display: flex;
+  border-top: 1px solid #e9ecef;
+  padding: 12px;
+  gap: 10px;
+}
+
+#userInput {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e9ecef;
+  border-radius: 25px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#userInput:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+#sendBtn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#sendBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* 闪卡 */
+.flashcard-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+  padding: 10px;
+}
+
+.flashcard {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  padding: 35px 30px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+
+.flashcard::before {
+  content: '💡';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5em;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.flashcard::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.flashcard:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+}
+
+.flashcard:hover::before {
+  transform: rotate(20deg) scale(1.2);
+  opacity: 0.8;
+}
+
+.flashcard:hover::after {
+  opacity: 1;
+}
+
+.flashcard.flipped {
+  background: white;
+  color: #333;
+  border: 3px solid #667eea;
+  box-shadow: 0 8px 25px rgba(118, 75, 162, 0.3);
+}
+
+.flashcard.flipped::before {
+  content: '✓';
+  color: #667eea;
+  opacity: 0.8;
+}
+
+.flashcard-content {
+  position: relative;
+  z-index: 1;
+  line-height: 1.6;
+  font-size: 1.05em;
+}
+
+.flashcard-front {
+  font-weight: 600;
+  font-size: 1.15em;
+  letter-spacing: 0.3px;
+}
+
+.flashcard-back {
+  font-size: 0.95em;
+  text-align: left;
+}
+
+.flashcard-back strong {
+  color: #667eea;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.flashcard-hint {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85em;
+  opacity: 0.7;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+
+.flashcard:hover .flashcard-hint {
+  opacity: 1;
+  bottom: 12px;
+}
+
+.flashcard.flipped .flashcard-hint {
+  display: none;
+}
+
+/* 练习题 */
+.quiz-question {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.quiz-question label {
+  display: block;
+  padding: 10px;
+  margin: 8px 0;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quiz-question label:hover {
+  background: #e3f2fd;
+  transform: translateX(5px);
+}
+
+.feedback {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.feedback.correct {
+  background: #d4edda;
+  color: #155724;
+  border-left: 4px solid #28a745;
+}
+
+.feedback.incorrect {
+  background: #f8d7da;
+  color: #721c24;
+  border-left: 4px solid #dc3545;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  .main-content {
+    padding: 15px;
+  }
+  
+  .header h1 {
+    font-size: 1.8em;
+  }
+  
+  #assistant-window {
+    width: calc(100% - 20px);
+    right: 10px;
+    left: 10px;
+  }
+}
+</style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h2 data-i18n="sidebar.title">🏥 培训模块</h2>
+      <p data-i18n="sidebar.subtitle">系统化护理技能提升</p>
+    </div>
+    <div id="sidebarContent">
+      </div>
+  </div>
+
+  <div class="main-content">
+    <div class="header">
+      <h1 data-i18n="header.title">AI CareCoach 智能培训平台</h1>
+      <p class="subtitle" data-i18n="header.subtitle">专业护理 · 智能学习 · 持续进步</p>
+    </div>
+
+    <div class="main-lang-switcher-container">
+      <div class="lang-switcher">
+        <button id="lang-zh" class="lang-btn active" onclick="switchLanguage('zh')">中文</button>
+        <button id="lang-en" class="lang-btn" onclick="switchLanguage('en')">English</button>
+      </div>
+    </div>
+    <div class="tab-buttons">
+      <button class="tab-button active" onclick="showTab('dashboard')" data-i18n="tabs.dashboard">📊 学习总结</button>
+      <button class="tab-button" onclick="showTab('content')" data-i18n="tabs.content">📖 核心要点</button>
+      <button class="tab-button" onclick="showTab('quiz')" data-i18n="tabs.quiz">✏️ 练习题</button>
+      <button class="tab-button" onclick="showTab('flashcard')" data-i18n="tabs.flashcard">🎴 闪卡复习</button>
+    </div>
+
+    <div class="tab-content" id="dashboard-tab">
+      <div id="dashboardArea"></div>
+    </div>
+    <div class="tab-content" id="content-tab" style="display:none;">
+      <div id="contentArea"></div>
+    </div>
+    <div class="tab-content" id="quiz-tab" style="display:none;">
+      <div id="quizArea"></div>
+    </div>
+    <div class="tab-content" id="flashcard-tab" style="display:none;">
+      <div id="flashcardArea" class="flashcard-container"></div>
+    </div>
+  </div>
+
+  <div id="assistant-button" onclick="toggleAssistant()">💬</div>
+  <div id="assistant-window">
+    <div id="assistant-header">
+      <div data-i18n="assistant.title">🧠 小护助教</div>
+      <button id="clearHistoryBtn" onclick="clearHistory()" data-i18n="assistant.clear">清除记录</button>
+      <span onclick="toggleAssistant()">×</span>
+    </div>
+    <div id="chatBox"></div>
+    
+    <div id="quickQuestions" style="padding: 10px; border-top: 1px solid #eee; display: none;">
+      <div style="font-size: 0.9em; margin-bottom: 8px; color: #666;" data-i18n="assistant.suggestions">💡 试试问这些问题：</div>
+      <div id="questionList" style="display: flex; flex-wrap: wrap; gap: 8px;">
+        </div>
+    </div>
+    <div id="assistant-input">
+      <input type="text" id="userInput" data-i18n-placeholder="assistant.placeholder" placeholder="提问示例：如何预防压疮？" onkeydown="if(event.key==='Enter'){askAssistant()}">
+      <button id="sendBtn" onclick="askAssistant()" data-i18n="assistant.send">发送</button>
+    </div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>

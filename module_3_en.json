@@ -1,0 +1,135 @@
+{
+  "content": [
+    {
+      "name": "1. Symptom Identification",
+      "units": [
+        {
+          "name": "Identification of Common Symptoms in Respiratory, Digestive, and Skin Systems (Intermediate)",
+          "core_points": [
+            {
+              "what": "Cough: Observe nature (dry/wet cough), sound (hoarse/metallic), duration, and associated symptoms.",
+              "why": "Coughing is a respiratory tract irritation reflex; the nature and tone can suggest the site and type of lesion.",
+              "when": "Report to the doctor if persistent coughing lasts over 2 weeks or is accompanied by hemoptysis or fever; dry cough with chest pain should raise suspicion of pleurisy.",
+              "scenario": "The caregiver finds the elderly person has recurrent dry cough at night, records the frequency, and suggests a medical visit to rule out chronic bronchitis."
+            },
+            {
+              "what": "Dyspnea: Identify type and associated symptoms (orthopnea, cyanosis, nasal flaring).",
+              "why": "Dyspnea reflects impaired gas exchange; posture and associated manifestations can help determine the cause (cardiac or pulmonary).",
+              "when": "Immediately administer oxygen and report if orthopnea, respiratory rate $>24$ breaths/min, or cyanosis occurs.",
+              "scenario": "The patient suddenly feels chest tightness and shortness of breath after a shower, the caregiver helps them adopt an orthopneic position and starts oxygen therapy."
+            },
+            {
+              "what": "Constipation: Bowel movements less than 3 times per week, hard stool, accompanied by abdominal distension and difficulty defecating.",
+              "why": "Reduced peristalsis and insufficient water intake are common causes in the elderly; chronic constipation can lead to hemorrhoids or fecal impaction.",
+              "when": "Report to the doctor if no bowel movement for over 3 days or accompanied by abdominal pain; immediate first aid is needed if fainting occurs after straining during defecation.",
+              "scenario": "Grandma Wang has not defecated for 4 days, the caregiver records the situation, performs abdominal massage, and assesses whether a glycerin enema is needed."
+            },
+            {
+              "what": "Diarrhea: Loose or watery stools accompanied by abdominal pain, dehydration, and fever.",
+              "why": "Diarrhea is a common manifestation of gastrointestinal infection or food intolerance; prevention of dehydration and electrolyte imbalance is necessary.",
+              "when": "If diarrhea is $>3$ times/day or accompanied by a temperature $>38℃$, collect a specimen for testing and provide fluid replacement.",
+              "scenario": "The caregiver finds the elderly person has had diarrhea 5 times in one morning, measures the temperature, and provides oral rehydration salts."
+            },
+            {
+              "what": "Pressure Injury: Stage I non-blanchable erythema, Stage II superficial ulcer, Stage III-IV deep tissue destruction.",
+              "why": "Prolonged pressure leads to local tissue ischemia and necrosis; early detection can reverse the lesion.",
+              "when": "Check the skin over bony prominences twice daily (morning and evening) for bedridden patients; immediately relieve pressure and record if non-blanchable erythema is found.",
+              "scenario": "The caregiver finds redness over the sacrococcygeal area during the morning bath, immediately turns the patient to relieve pressure and notifies the nurse for assessment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Symptom Management",
+      "units": [
+        {
+          "name": "Management of Dyspnea, Coughing, and Hemoptysis (Intermediate)",
+          "core_points": [
+            {
+              "what": "Dyspnea: Assist the patient to a sitting or semi-Fowler's position, ensure good ventilation, and administer oxygen as prescribed.",
+              "why": "The sitting position can reduce diaphragm pressure and improve lung ventilation; timely oxygen administration can relieve hypoxia.",
+              "when": "If respiratory rate is $>30$ breaths/min, $\text{SpO}_2 <90\%$, or cyanosis occurs, immediately manage and report.",
+              "scenario": "The patient suddenly develops shortness of breath during the night shift, the caregiver immediately helps them sit up and connects the oxygen device."
+            },
+            {
+              "what": "Chest Physiotherapy (Percussion) for Sputum Clearance: Avoid the spine and breast areas, 10-15 minutes each time.",
+              "why": "Percussion promotes sputum mobilization and expulsion; avoiding bony prominences prevents injury.",
+              "when": "Avoid percussion within 1 hour after meals or within 48 hours post-operatively; contraindicated for patients with hemoptysis.",
+              "scenario": "The caregiver performs chest percussion for the bedridden patient in the morning, the sputum is easily cleared, and it is documented in the nursing log."
+            },
+            {
+              "what": "Hemoptysis: Assist to a sitting position, head tilted towards the affected side, maintain calmness, and avoid forceful coughing.",
+              "why": "Tilting the head to the affected side helps blood drain and prevents aspiration; calm breathing reduces the amount of bleeding.",
+              "when": "Immediately initiate the emergency procedure if the amount of hemoptysis is $>100 \text{mL}$ or if bleeding is continuous.",
+              "scenario": "The caregiver finds the elderly person coughed up 50 mL of fresh blood, immediately assists to a sitting position and notifies the doctor."
+            }
+          ]
+        },
+        {
+          "name": "Management of Constipation, Diarrhea, and Bloody Stool (Intermediate)",
+          "core_points": [
+            {
+              "what": "Constipation: Perform clockwise abdominal massage for 15-20 minutes, 2-3 times daily, use a glycerin enema if necessary.",
+              "why": "Massage promotes peristalsis; regular bowel movements prevent impaction.",
+              "when": "Observe bowel movements daily for patients who are long-term bedridden or taking analgesics, as they are prone to constipation.",
+              "scenario": "The caregiver finds the patient has abdominal distension, performs massage, and records the bowel movement status."
+            },
+            {
+              "what": "Diarrhea: Drink small amounts of water frequently, maintain a bland diet, prevent dehydration; provide fluid replacement as prescribed.",
+              "why": "Prevents fluid loss; liquid diet reduces the burden on the intestines.",
+              "when": "If diarrhea is $>6$ times/day or accompanied by dehydration symptoms, report and stop stimulating foods.",
+              "scenario": "The caregiver instructs the elderly person to drink warm saline water, records the frequency of diarrhea, and notifies the doctor to adjust the diet."
+            },
+            {
+              "what": "Bloody Stool: Maintain a bland diet, pay attention to perianal hygiene, and avoid straining during defecation.",
+              "why": "Prevents re-bleeding or infection; perianal hygiene promotes healing.",
+              "when": "Immediately report to the doctor if the amount of blood in the stool is $>50 \text{mL}$ or if the stool is black.",
+              "scenario": "The caregiver finds obvious blood in the patient's stool after defecation, assists with cleaning, and reports to the doctor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3. Chronic Disease Care Guidance",
+      "units": [
+        {
+          "name": "Chronic Disease Health Education and Basic Nursing Guidance (Senior)",
+          "core_points": [
+            {
+              "what": "Hypertension: Control salt intake to $<6 \text{g/day}$, take medication regularly, and monitor blood pressure.",
+              "why": "Low-sodium diet and regular medication can reduce cardiovascular and cerebrovascular risk.",
+              "when": "Morning and before bedtime are key monitoring points; report if blood pressure is $>160/100 \text{mmHg}$.",
+              "scenario": "The caregiver finds Uncle Wang's blood pressure has risen to 165/95 mmHg, records it, and notifies the doctor to adjust the medication."
+            },
+            {
+              "what": "Coronary Heart Disease: Immediately stop activity and take nitroglycerin sublingually for chest pain; take another tablet if symptoms do not relieve.",
+              "why": "Nitroglycerin dilates coronary arteries and relieves ischemia; resting reduces the cardiac load.",
+              "when": "Immediately call emergency services if chest pain persists for $>10$ minutes or if there is no effect after 2 tablets.",
+              "scenario": "The patient feels chest tightness after activity, the caregiver immediately assists with rest and sublingual nitroglycerin."
+            },
+            {
+              "what": "Stroke: Identify using the 'Stroke 120 Formula' (1 check face, 2 check arms, 0 check speech), seek medical attention immediately.",
+              "why": "Early identification allows for timely thrombolysis within the golden 3 hours.",
+              "when": "Immediately report and dial 120 if the patient's mouth is crooked or speech is slurred.",
+              "scenario": "The caregiver finds the elderly person's arm lift is imbalanced during morning rounds, immediately calls the charge nurse to initiate the emergency procedure."
+            },
+            {
+              "what": "Parkinson's Disease: Slow movement when getting up to prevent orthostatic hypotension, perform light exercise after taking medication.",
+              "why": "Slow rising prevents falls; activity after medication helps with drug absorption.",
+              "when": "Morning and changing positions are high-risk times for falls.",
+              "scenario": "The caregiver reminds the patient of the 'three-step method' for getting out of bed to prevent dizziness and falls."
+            },
+            {
+              "what": "Diabetes: Regular and quantitative diet, blood glucose monitoring, avoid soaking feet in hot water.",
+              "why": "Regular diet and glucose monitoring prevent hypoglycemia; hot water soaking can cause burns or infections.",
+              "when": "Immediate sugar supplementation is needed if blood glucose is $<3.9 \text{mmol/L}$; check the feet daily.",
+              "scenario": "The caregiver instructs the patient to measure blood glucose after meals and check the skin integrity of the feet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

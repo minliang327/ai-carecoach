@@ -1,0 +1,231 @@
+{
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "why",
+      "question": "Why is it necessary to record the nature of the cough and accompanying symptoms for persistent dry cough?",
+      "options": [
+        "A. To facilitate the statistics of cough frequency",
+        "B. To help judge the site and type of the lesion",
+        "C. To let family members understand the content of care",
+        "D. To prevent the elderly person from becoming emotionally anxious"
+      ],
+      "answer": "B",
+      "explanation": "The nature (dry/wet, sound, time) of the cough reflects the site and type of lesion and is an important basis for assessing the respiratory system."
+    },
+    {
+      "id": "Q2",
+      "type": "when",
+      "question": "When a patient presents with orthopnea and cyanotic lips, when should the caregiver intervene?",
+      "options": [
+        "A. Observe for 5 minutes later",
+        "B. Immediately assist to a sitting position and administer oxygen",
+        "C. Wait for the doctor's rounds to report",
+        "D. Instruct the patient to breathe deeply"
+      ],
+      "answer": "B",
+      "explanation": "Orthopnea and cyanosis suggest dyspnea, and the position should be immediately improved and oxygen administered to prevent hypoxia."
+    },
+    {
+      "id": "Q3",
+      "type": "scenario",
+      "question": "Scenario: Grandma Li has diarrhea 4 times/day, accompanied by a mild fever. Which measure should the caregiver take?",
+      "options": [
+        "A. Temporarily stop eating, encourage fluid intake, record frequency, and report",
+        "B. Immediately fast for 24 hours",
+        "C. Self-administer antidiarrheal medication",
+        "D. Temporarily do not intervene"
+      ],
+      "answer": "A",
+      "explanation": "Diarrhea more than 3 times accompanied by fever should be reported promptly to prevent dehydration; fluid and a bland diet should be maintained."
+    },
+    {
+      "id": "Q4",
+      "type": "why",
+      "question": "Why perform circular abdominal massage on elderly people with constipation?",
+      "options": [
+        "A. To increase comfort",
+        "B. To promote intestinal peristalsis and improve defecation",
+        "C. To strengthen abdominal muscle strength",
+        "D. To relieve abdominal distension"
+      ],
+      "answer": "B",
+      "explanation": "Circular abdominal massage along the direction of the colon promotes intestinal peristalsis, aiding defecation and reducing reliance on medication."
+    },
+    {
+      "id": "Q5",
+      "type": "when",
+      "question": "When should bloody stool be reported immediately?",
+      "options": [
+        "A. Bright red color, small amount",
+        "B. Dark red or tarry stool",
+        "C. Occasional blood streaks",
+        "D. Mild abdominal distension accompanied by bloody stool"
+      ],
+      "answer": "B",
+      "explanation": "Dark red or tarry stool suggests upper gastrointestinal bleeding, which is a critical sign and should be reported to the doctor immediately."
+    },
+    {
+      "id": "Q6",
+      "type": "multi",
+      "question": "Which of the following measures help relieve dyspnea? (Multiple Choice)",
+      "options": [
+        "A. Adopt a sitting or semi-sitting position",
+        "B. Lie flat for rest",
+        "C. Open windows to maintain air circulation",
+        "D. Encourage pursed-lip breathing",
+        "E. Place a hot water bottle on the chest for warmth"
+      ],
+      "answer": ["A", "C", "D"],
+      "explanation": "Improving position, maintaining ventilation, and pursed-lip breathing effectively relieve dyspnea; lying flat or heat stimulation should be avoided."
+    },
+    {
+      "id": "Q7",
+      "type": "scenario",
+      "question": "Scenario: The caregiver performs chest percussion to clear sputum for a patient. Which of the following practices is correct?",
+      "options": [
+        "A. Immediately perform percussion after meals to promote digestion",
+        "B. Avoid the spine and breast areas during percussion",
+        "C. Strike forcefully to speed up sputum expulsion",
+        "D. Continue light percussion to assist sputum clearance when the patient is coughing up blood"
+      ],
+      "answer": "B",
+      "explanation": "Percussion should avoid bony prominences and breast areas, be gentle and rhythmic; it is contraindicated after meals and for patients with hemoptysis."
+    },
+    {
+      "id": "Q8",
+      "type": "scenario_chain",
+      "question": "Chain Scenario: A patient suddenly coughs up about 100mL of blood.\n① What should the caregiver do first?\n② What action should be taken next?",
+      "steps": [
+        {
+          "step": 1,
+          "options": [
+            "A. Assist the patient to a sitting position, head tilted towards the affected side",
+            "B. Immediately lie flat",
+            "C. Let the patient drink water",
+            "D. Just wipe it clean with a towel"
+          ],
+          "answer": "A"
+        },
+        {
+          "step": 2,
+          "options": [
+            "A. Continue chest tapping to help clear sputum",
+            "B. Maintain calmness and notify the doctor promptly",
+            "C. Let the patient rest by themselves",
+            "D. Measure body temperature and then observe"
+          ],
+          "answer": "B"
+        }
+      ],
+      "explanation": "For hemoptysis, the patient should be in a sitting position with the head tilted to the affected side to prevent aspiration, then the doctor should be notified for emergency treatment."
+    },
+    {
+      "id": "Q9",
+      "type": "why",
+      "question": "Why should milk be avoided during diarrhea?",
+      "options": [
+        "A. Milk has a strong taste",
+        "B. Milk protein is difficult to digest and easily worsens diarrhea",
+        "C. To prevent dehydration",
+        "D. To reduce appetite"
+      ],
+      "answer": "B",
+      "explanation": "The lactose in milk is difficult to break down during diarrhea, which can irritate the intestines and worsen diarrhea."
+    },
+    {
+      "id": "Q10",
+      "type": "when",
+      "question": "For a chronic disease patient taking medication, which of the following situations requires medication to be stopped and reported?",
+      "options": [
+        "A. Occasional dizziness",
+        "B. Appearance of rash, dyspnea, or obvious hypotension",
+        "C. No change in symptoms",
+        "D. Mild nausea"
+      ],
+      "answer": "B",
+      "explanation": "Drug allergies or severe side effects such as rash or dyspnea should lead to immediate discontinuation of the drug and reporting to the doctor."
+    },
+    {
+      "id": "Q11",
+      "type": "multi",
+      "question": "Which of the following are key points for the daily care of patients with hypertension? (Multiple Choice)",
+      "options": [
+        "A. Regular blood pressure monitoring",
+        "B. Salt intake control $<6 \text{g/day}$",
+        "C. Increase activity when feeling dizzy",
+        "D. Take medication regularly and do not stop it without authorization",
+        "E. Take anti-hypertensive medication immediately whenever blood pressure rises"
+      ],
+      "answer": ["A", "B", "D"],
+      "explanation": "Regular monitoring, low-salt diet, and taking medication as prescribed are the core of hypertension management."
+    },
+    {
+      "id": "Q12",
+      "type": "scenario",
+      "question": "Scenario: The caregiver notices a Parkinson's patient suddenly feels dizzy and shakes when getting up. How should it be handled?",
+      "options": [
+        "A. Immediately assist them to sit back on the bed to rest",
+        "B. Let them continue to stand to practice balance",
+        "C. Give a hot drink to raise blood pressure",
+        "D. Immediately call the doctor"
+      ],
+      "answer": "A",
+      "explanation": "Parkinson's patients often have orthostatic hypotension, and should be assisted to sit back down smoothly to prevent falls."
+    },
+    {
+      "id": "Q13",
+      "type": "scenario_chain",
+      "question": "Chain Scenario: A diabetic patient's blood glucose drops to $3.5 \text{ mmol/L}$.\n① What should the caregiver do immediately?\n② If the patient loses consciousness, what should be done?",
+      "steps": [
+        {
+          "step": 1,
+          "options": [
+            "A. Oral administration of glucose or sugary drinks",
+            "B. Stop all food",
+            "C. Perform abdominal massage",
+            "D. Give a hot water foot soak"
+          ],
+          "answer": "A"
+        },
+        {
+          "step": 2,
+          "options": [
+            "A. Place in a lateral position to prevent aspiration and report to the doctor",
+            "B. Continue to feed sugar",
+            "C. Let them stand in a well-ventilated area",
+            "D. Give water to cool down"
+          ],
+          "answer": "A"
+        }
+      ],
+      "explanation": "For mild hypoglycemia, supplement with sugar first; if consciousness is impaired, place in a lateral position to prevent aspiration and report immediately."
+    },
+    {
+      "id": "Q14",
+      "type": "why",
+      "question": "Why should stroke patients follow the 'Stroke 120 Formula'?",
+      "options": [
+        "A. Easy to remember",
+        "B. To quickly identify stroke symptoms and receive treatment within the golden 3 hours",
+        "C. Can self-assess recovery progress",
+        "D. To enhance motor ability"
+      ],
+      "answer": "B",
+      "explanation": "'1 check face, 2 check arms, 0 check speech' allows for early identification of stroke, securing the 3-hour window for thrombolytic treatment."
+    },
+    {
+      "id": "Q15",
+      "type": "scenario",
+      "question": "Scenario: A coronary heart disease patient's chest pain is not relieved 5 minutes after sublingual nitroglycerin. What is the correct action by the caregiver?",
+      "options": [
+        "A. Take 1 more tablet and observe closely",
+        "B. Immediately let the patient walk to relax",
+        "C. Give a hot drink to consume",
+        "D. Temporarily ignore it and continue to rest"
+      ],
+      "answer": "A",
+      "explanation": "Nitroglycerin can be repeated once; if there is still no relief, immediately call emergency services."
+    }
+  ]
+}

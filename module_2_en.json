@@ -1,0 +1,284 @@
+{
+  "content": [
+    {
+      "name": "1. Vital Signs Monitoring/Identification",
+      "units": [
+        {
+          "name": "Identification of Abnormal Temperature, Pulse, Respiration, and Blood Pressure (Intermediate)",
+          "core_points": [
+            {
+              "what": "Abnormal Temperature: Low-grade fever 37.3-38℃, high fever 39.1-41℃, hyperpyrexia >41℃; hypothermia <35.0℃; abnormal temperature requires recording the degree, analyzing the cause, observing associated symptoms, and prompt reporting.",
+              "why": "Abnormal temperature reflects infection, metabolism, or environmental stress; timely identification facilitates early intervention to prevent condition deterioration.",
+              "when": "Report immediately if temperature is consecutively above 38℃ or below 35℃; re-measure to confirm if a sudden temperature spike is found during night care.",
+              "scenario": "The caregiver measures Grandpa Li's temperature at 38.6℃ during the night shift, re-measures to confirm, records it on the temperature chart, notifies the nurse, and implements physical cooling as prescribed."
+            },
+            {
+              "what": "Abnormal Pulse: Tachycardia >100 beats/min, bradycardia <60 beats/min; abnormal rhythm (intermittent pulse, pulse deficit); abnormal pulse strength (alternating strong and weak).",
+              "why": "Pulse changes can indicate circulatory system abnormalities or drug effects; abnormal rhythms need to be differentiated from arrhythmias.",
+              "when": "Report immediately if pulse is >100 or <60 beats/min and accompanied by dizziness or fatigue; closely monitor patients taking cardiac medications.",
+              "scenario": "Grandma Wang's pulse drops to 52 beats/min after taking digoxin, the caregiver withholds the dose and reports to the doctor."
+            },
+            {
+              "what": "Abnormal Respiration: Tachypnea >24 breaths/min, bradypnea <12 breaths/min; abnormal depth (shallow and rapid, deep and rapid, irregular depth); abnormal rhythm (Cheyne-Stokes respiration, intermittent respiration).",
+              "why": "Abnormal respiration can indicate respiratory system diseases or metabolic disorders; early identification prevents respiratory failure.",
+              "when": "Immediately provide oxygen and report if Cheyne-Stokes respiration or accompanying cyanosis or dyspnea is found; minor abnormalities require continuous observation and recording.",
+              "scenario": "The patient develops orthopnea and cyanotic lips, the caregiver immediately assists to a semi-sitting position and starts the oxygen flow."
+            },
+            {
+              "what": "Abnormal Blood Pressure: Hypertension $\\ge$ 140/90 mmHg (3 times on non-consecutive days); hypotension <90/60 mmHg; narrowed pulse pressure <30 mmHg, widened pulse pressure >40 mmHg.",
+              "why": "Abnormal blood pressure is closely related to cardiovascular and cerebrovascular risks; continuous monitoring helps assess medication effectiveness and condition trends.",
+              "when": "Morning and before bedtime are key monitoring periods; report if continuous elevation 3 times or sudden drop $\\ge$ 20 mmHg occurs.",
+              "scenario": "Zhang Bo's morning blood pressure is 165/95 mmHg, a significant increase from yesterday, the caregiver records the trend and reminds the family for a follow-up visit."
+            }
+          ]
+        },
+        {
+          "name": "Vital Signs Monitoring (Senior)",
+          "core_points": [
+            {
+              "what": "Temperature Fluctuation: Measure every 4 hours during the continuous high fever period ($>$39℃); observe blood pressure, pulse, and promptly wipe sweat and change clothes during the fever reduction period.",
+              "why": "Frequent monitoring assesses the effectiveness of fever-reducing measures; sudden high fever reduction can easily lead to circulatory instability.",
+              "when": "If temperature drops $>$1.5℃/h or the patient sweats significantly, prevent hypotension and provide fluid supplementation.",
+              "scenario": "Mr. Liu sweats profusely after his high fever subsides, the caregiver immediately changes his clothes, measures blood pressure, and supplements with warm water."
+            },
+            {
+              "what": "Common Fever Patterns: Sustained fever, remittent fever, intermittent fever, irregular fever.",
+              "why": "Different fever patterns reflect different disease characteristics, such as sustained fever in pneumonia and intermittent fever in malaria.",
+              "when": "If regular fluctuations appear on the temperature curve, assist the doctor in analyzing the fever pattern.",
+              "scenario": "The patient has high fever in the afternoon and a return to normal temperature at night for three consecutive days, the caregiver plots the temperature curve for the doctor's diagnosis."
+            },
+            {
+              "what": "Abnormal Pulse Monitoring: Palpation method, auscultation method, bilateral comparison; pulse deficit requires simultaneous measurement by two people for 1 minute.",
+              "why": "Bilateral comparison can identify vascular obstruction or heart rhythm differences.",
+              "when": "Monitor once daily in the morning during post-operative, arrhythmia, or medication adjustment periods.",
+              "scenario": "The caregiver finds a large difference between the left and right radial artery pulse, immediately records it and reports to the doctor."
+            },
+            {
+              "what": "Abnormal Blood Pressure Monitoring: Measure blood pressure regularly and in a fixed position for hypertensive patients; avoid overly hot baths for hypotensive patients.",
+              "why": "Unified conditions ensure data comparability and prevent false fluctuations.",
+              "when": "Re-measure 30 minutes after medication or after activity to evaluate the effect.",
+              "scenario": "The patient feels dizzy after taking anti-hypertensive medication, re-measurement shows a significant blood pressure drop, the caregiver assists to a flat position for rest and records the situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Basic Infection Control",
+      "units": [
+        {
+          "name": "Observation and Handling of Secretions, Vomitus, and Excreta (Intermediate)",
+          "core_points": [
+            {
+              "what": "Respiratory Secretions: Observe color, viscosity, foreign matter, odor; dispose of infectious sputum with chlorine-containing disinfectant for 30 minutes before pouring.",
+              "why": "Sputum characteristics can suggest the type of infection; correct handling prevents cross-infection.",
+              "when": "Report to the doctor if yellow purulent sputum or foul odor appears; increase cleaning frequency for patients with a large amount of sputum.",
+              "scenario": "The caregiver finds the patient's sputum is yellowish-green and foul-smelling, immediately disinfects as required and reports."
+            },
+            {
+              "what": "Vomitus: Observe color, odor, amount, frequency; projectile vomiting warns of increased intracranial pressure.",
+              "why": "Vomitus characteristics can suggest the cause, such as coffee grounds for gastric bleeding.",
+              "when": "Immediately report and ensure airway patency if projectile vomiting occurs twice consecutively or is accompanied by headache and blurred vision.",
+              "scenario": "Grandma Zhang's vomitus is coffee-ground colored, the caregiver immediately reports and collects a specimen for examination."
+            },
+            {
+              "what": "Stool: Observe color, shape, amount, odor; black/tarry stool requires prompt reporting.",
+              "why": "Black stool indicates upper gastrointestinal bleeding; stool observation is a key step in early detection of digestive diseases.",
+              "when": "Check once daily after morning defecation; collect a fresh sample of abnormal color or mucus for examination.",
+              "scenario": "The patient's stool is dark red and foul-smelling, the caregiver collects a sample, records it, and notifies the doctor."
+            },
+            {
+              "what": "Urine: Observe urine output, color, properties, odor; urinary frequency/urgency/pain warns of urinary tract infection.",
+              "why": "Urine abnormalities reflect renal function and infection status.",
+              "when": "The first morning urine is the most diagnostically valuable; be cautious of oliguria if urine output is <400 mL.",
+              "scenario": "The caregiver finds the patient's urine is cloudy and foul-smelling, immediately reports and advises fluid intake."
+            },
+            {
+              "what": "Specimen Collection: Collect midstream urine; collect fresh samples from the surface and abnormal parts of the stool.",
+              "why": "Midstream urine reduces contamination and improves test accuracy.",
+              "when": "Avoid using antibacterial washes before and after collection; send specimens for testing within 1 hour.",
+              "scenario": "The caregiver labels the urine specimen immediately after collection and sends it for testing to ensure reliable results."
+            }
+          ]
+        },
+        {
+          "name": "Protective Isolation (Intermediate)",
+          "core_points": [
+            {
+              "what": "Applicable Subjects: Immunocompromised, long-term bedridden, or post-operative recovery patients.",
+              "why": "These individuals have poor resistance and are highly susceptible to pathogenic microorganisms.",
+              "when": "Protective isolation should be implemented if white blood cell count is $<3 \\times 10^9/L$ or within 3 days post-operatively.",
+              "scenario": "A post-chemotherapy patient is placed in a single room, the caregiver wears a mask and gloves throughout and restricts visits."
+            },
+            {
+              "what": "Isolation Measures: Single room, buffer zone, dedicated supplies, daily linen change.",
+              "why": "Physical isolation cuts off transmission routes; regular changes reduce the bacterial load.",
+              "when": "If the patient develops fever or respiratory symptoms, strict isolation should be initiated immediately.",
+              "scenario": "A fever is detected during temperature monitoring in the isolation room, the caregiver immediately reports and strengthens ventilation and disinfection."
+            },
+            {
+              "what": "Protection Procedures: Hand hygiene for 30 seconds before and after contact; limit the number of visitors; strict aseptic technique.",
+              "why": "Hand hygiene is the primary step in preventing nosocomial infections.",
+              "when": "Wash hands before and after every care activity; change gloves after contact with contaminants.",
+              "scenario": "The caregiver immediately washes and disinfects hands after suctioning and changes gloves before touching the next patient."
+            }
+          ]
+        },
+        {
+          "name": "3. Safety Nursing",
+          "units": [
+            {
+              "name": "Risk Assessment and Prevention (Intermediate)",
+              "core_points": [
+                {
+                  "what": "Fall/Tumbling Risk Assessment: Assess personal and environmental factors; teach the 'three-step method' for getting out of bed.",
+                  "why": "Falls are the leading cause of injury in the elderly; assessment allows for pre-intervention.",
+                  "when": "Re-assess risk before every night shift handover and after medication adjustments.",
+                  "scenario": "The caregiver notices Grandma Wang feels dizzy when getting up, assists her to sit and rest before helping her out of bed."
+                },
+                {
+                  "what": "Scald Prevention: Use hot water bottles/electric blankets for $\\le$ 30 minutes; flush the burned area with cold water for 20-30 minutes after scalding.",
+                  "why": "The elderly have thin skin and reduced sensation, making them prone to low-temperature burns.",
+                  "when": "Check the skin every 10 minutes when using heat sources; stop immediately if redness appears.",
+                  "scenario": "The caregiver finds the patient's leg is red during rounds, immediately removes the hot water bottle and applies a cold compress."
+                },
+                {
+                  "what": "Aspiration Prevention: Eating position should be sitting/semi-Fowler's position, avoid feeding while lying flat.",
+                  "why": "Semi-Fowler's position prevents food from refluxing and entering the airway.",
+                  "when": "Assess before feeding patients with dysphagia or frequent coughing.",
+                  "scenario": "The stroke patient coughs after eating, the caregiver assists with back tapping and adjusts the position."
+                }
+              ]
+            },
+            {
+              "name": "Hypoglycemia Emergency Care and Reporting (Intermediate)",
+              "core_points": [
+                {
+                  "what": "Symptoms: Dizziness, sweating, rapid heartbeat, hand tremors.",
+                  "why": "Hypoglycemia affects brain energy supply and can be life-threatening if treatment is delayed.",
+                  "when": "Measure blood sugar immediately upon symptom onset and administer sugar water; report to the doctor if no relief.",
+                  "scenario": "A diabetic patient shows hand tremors and sweating, the caregiver immediately measures blood sugar and administers a sugary drink."
+                },
+                {
+                  "what": "Nursing: Give 15-20g oral glucose for conscious patients; place unconscious patients in a lateral position to prevent aspiration.",
+                  "why": "Rapid sugar supplementation restores blood glucose levels; the lateral position prevents aspiration from vomiting.",
+                  "when": "If no improvement after 10 minutes of sugar supplementation, re-supplement once and report immediately.",
+                  "scenario": "Grandpa Li is still weak after oral glucose, the caregiver re-supplements and calls the doctor."
+                },
+                {
+                  "what": "Reporting: Record symptoms, measures, and results; suggest medical attention if frequently occurring.",
+                  "why": "Documentation helps assess medication plan and complication risks.",
+                  "when": "If hypoglycemia occurs more than twice, notify the doctor to adjust the medication dosage.",
+                  "scenario": "The patient has experienced hypoglycemia twice in three days, the caregiver compiles the records for the doctor to assess the medication dosage."
+                }
+              ]
+            },
+            {
+              "name": "Pressure Injury Prevention Guidance (Intermediate)",
+              "core_points": [
+                {
+                  "what": "Risk Factors: Pressure, friction, moisture, malnutrition.",
+                  "why": "These factors lead to local skin blood supply deficiency and tissue necrosis.",
+                  "when": "Focus on protection for long-term bedridden, poorly nourished, or moist environments.",
+                  "scenario": "The bedridden elderly person's buttocks skin is moist, the caregiver changes the linen and places a pressure-relieving cushion."
+                },
+                {
+                  "what": "Prevention: Turn every 2 hours, use pressure-relieving cushions, and check the skin.",
+                  "why": "Regular turning restores local blood flow, preventing necrosis.",
+                  "when": "Maintain turning frequency even during night shifts or holidays when staffing is low.",
+                  "scenario": "The caregiver assists with turning and records the time during night rounds."
+                },
+                {
+                  "what": "Stage I - II Injury Management: Pressure relief + dressing protection; Stage III - IV requires medical attention.",
+                  "why": "Early injuries can recover with pressure relief; deep injuries require professional treatment.",
+                  "when": "Stop massaging and report if redness does not fade or if ulceration is found.",
+                  "scenario": "Finding non-fading redness on the sacrum, the caregiver stops massaging and covers the area with a hydrocolloid dressing."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. Medication Nursing",
+          "units": [
+            {
+              "name": "Assisting with Oral and Tube Feeding Medication Administration (Senior)",
+              "core_points": [
+                {
+                  "what": "Oral Medication: Solution bottle label facing the palm; do not crush sustained-release tablets.",
+                  "why": "Prevents label contamination and ensures accurate dosage; crushing sustained-release tablets can lead to a sudden surge in drug effect.",
+                  "when": "Switch to liquid formulations or administer in divided doses if the elderly person has difficulty swallowing.",
+                  "scenario": "Grandma Wang has difficulty swallowing, the caregiver requests a change to a syrup formulation."
+                },
+                {
+                  "what": "Tube Feeding Medication: Flush the tube with 5mL of warm water before and after each medication; do not mix medication with formula.",
+                  "why": "Prevents drug precipitation and reaction from blocking the tube.",
+                  "when": "If resistance or reflux is found during injection, pause and check the tube patency.",
+                  "scenario": "The liquid cannot be pushed during tube feeding, the caregiver stops infusion and uses warm water to pulse flush the tube."
+                },
+                {
+                  "what": "Blockage Management: Pulse flush the tube with 38-40℃ warm water; do not force infusion.",
+                  "why": "Warm water can dissolve residue, avoiding negative pressure damage.",
+                  "when": "If flushing is ineffective after two attempts, report to the nurse for assessment and tube replacement.",
+                  "scenario": "The caregiver flushes the tube twice without success, immediately reports and assists in replacing the gastric tube."
+                }
+              ]
+            },
+            {
+              "name": "Assisting with Topical Medication Administration (Senior)",
+              "core_points": [
+                {
+                  "what": "Skin Medication: Clean the affected area with warm water, apply in a circular motion from the center outward.",
+                  "why": "Applying along the skin lines promotes absorption and prevents cross-contamination.",
+                  "when": "Avoid irritant medications on skin with exudate or ulceration.",
+                  "scenario": "The caregiver cleans the pressure ulcer area with warm water and gently applies the ointment."
+                },
+                {
+                  "what": "Eye Medication: Drop the non-affected eye first, keep the bottle tip 1-2cm away from the lower eyelid, and do not touch the eyelashes.",
+                  "why": "Prevents bottle tip contamination; dropping the non-affected eye first prevents infection from spreading to the other eye.",
+                  "when": "If the patient has significant discharge in both eyes, use separate bottles or drop the eyes with a 5-minute interval.",
+                  "scenario": "The caregiver notices significant discharge when dropping Aunt Wang's eye drops, cleans both eyes, and uses separate bottles."
+                },
+                {
+                  "what": "Ear Medication: Drop the medicine at a temperature close to body temperature, maintain the original position for 5-10 minutes after dropping.",
+                  "why": "Overly cold medication can stimulate the vestibular system and cause dizziness; maintaining the position promotes absorption.",
+                  "when": "Do not use eardrops if tympanic membrane perforation or ear pain is present, follow medical advice.",
+                  "scenario": "The patient feels dizzy after eardrops, the caregiver checks and finds the medication is too cold, warms it with warm water before re-dropping."
+                },
+                {
+                  "what": "Nasal Medication: Clean the nasal cavity before use, tilt the head back or down depending on the medication type.",
+                  "why": "Keeping the nasal cavity clear enhances drug absorption; improper posture can lead to the medication flowing into the throat.",
+                  "when": "Assess the nasal mucosa condition before dropping for severe nasal congestion or a history of nasal bleeding.",
+                  "scenario": "The caregiver instructs the COPD patient on the correct head-tilting position for nasal drops to avoid swallowing the medication."
+                }
+              ]
+            },
+            {
+              "name": "Combined Ear and Skin Medication Nursing (Senior)",
+              "core_points": [
+                {
+                  "what": "Otitis Externa Care: Clean the external auditory canal 1-2 times daily before dropping; lightly plug the ear canal with a cotton ball.",
+                  "why": "Keeping the area dry helps the medication work, and the cotton ball prevents the liquid from flowing out.",
+                  "when": "If purulent discharge is present, rinse it clean before dropping; stop medication and seek medical attention if pain worsens.",
+                  "scenario": "The caregiver finds the patient's pain intensifies after dropping, immediately stops the procedure and notifies the doctor for assessment."
+                },
+                {
+                  "what": "Topical Treatment for Skin Infections: Clean the affected area first, remove scabs if necessary before applying the ointment.",
+                  "why": "Removing necrotic tissue enhances the drug effect; cleaning reduces the bacterial load.",
+                  "when": "If exudate is significant or the rash area is $>5 \\text{cm}^2$, switch to wet compress or systemic treatment as prescribed.",
+                  "scenario": "The patient's lower leg is red, swollen, and weeping, the caregiver switches to a sterile gauze wet compress and reports to the charge nurse."
+                },
+                {
+                  "what": "Notes on Combined Medication Administration: Leave an interval of at least 10 minutes between different ointments or drops.",
+                  "why": "Avoids mutual interference with absorption or chemical reactions.",
+                  "when": "If both antifungal and steroid ointments are used, apply the antifungal first, then the steroid after the interval.",
+                  "scenario": "The caregiver applies Clotrimazole cream first as prescribed, then uses Hydrocortisone cream 10 minutes later."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

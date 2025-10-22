@@ -1,0 +1,124 @@
+{
+  "quiz": [
+    {
+      "id": "Q1",
+      "type": "why",
+      "question": "Why lay a dry towel under the pillow before combing hair in a supine position?",
+      "options": [
+        "A. To facilitate the operation",
+        "B. To prevent water droplets from wetting the bed linen and pillow",
+        "C. To make the hair smoother",
+        "D. To prevent the patient from moving around"
+      ],
+      "answer": "B",
+      "explanation": "Laying a dry towel absorbs water and prevents moisture, maintaining a clean and dry bed environment, which is a key step in life care to prevent bedsores and eczema."
+    },
+    {
+      "id": "Q2",
+      "type": "when",
+      "question": "When performing oral hygiene for a bedridden elderly person, in which situation should the operation be stopped immediately?",
+      "options": [
+        "A. The cotton ball is slightly dry",
+        "B. There are slight streaks of blood on the cotton ball",
+        "C. The elderly person shows dry retching or a gag reflex",
+        "D. The elderly person refuses to open their mouth"
+      ],
+      "answer": "C",
+      "explanation": "If a gag reflex occurs, stop immediately to prevent aspiration, comfort the patient, and try again later."
+    },
+    {
+      "id": "Q3",
+      "type": "scenario",
+      "question": "Scenario: Grandma Li has been bedridden for three days, and the caregiver is preparing to clean her mouth. Which of the following is the correct order of operation?",
+      "options": [
+        "A. Rinse with medicated solution → Wipe the tongue surface → Rinse → Wipe the gums",
+        "B. Dip cotton ball in warm water to wipe the outer side of the teeth → Inner side → Tongue surface → Upper palate",
+        "C. Wipe multiple areas with one cotton ball to save time",
+        "D. Use a toothbrush to clean the teeth directly"
+      ],
+      "answer": "B",
+      "explanation": "Wiping the teeth, tongue surface, and upper palate with a warm water cotton ball in sequence is safe and prevents vomiting, making it the standard oral hygiene sequence for bedridden patients."
+    },
+    {
+      "id": "Q4",
+      "type": "why",
+      "question": "Why can't soap solution or alcohol disinfectant be used for catheter care?",
+      "options": [
+        "A. These two liquids are highly irritating and easily damage the mucous membrane",
+        "B. May reduce the lubrication of the catheter",
+        "C. Easily leaves a residual odor",
+        "D. Difficult to rinse clean"
+      ],
+      "answer": "A",
+      "explanation": "Soap solution and alcohol will damage the mucosal barrier around the urethral opening, causing inflammation or pain; clear water or the prescribed solution should be used."
+    },
+    {
+      "id": "Q5",
+      "type": "when",
+      "question": "When should a foot bath be stopped immediately?",
+      "options": [
+        "A. Water temperature is below 35℃",
+        "B. The elderly person complains of dizziness or paleness",
+        "C. The skin of the feet is slightly red",
+        "D. The foot bath has exceeded 15 minutes"
+      ],
+      "answer": "B",
+      "explanation": "Dizziness or paleness suggests possible blood pressure change or circulatory burden, the operation should be stopped immediately, and vital signs assessed."
+    },
+    {
+      "id": "Q6",
+      "type": "scenario",
+      "question": "Scenario: The caregiver is cleaning the perineal area of a bedridden elderly person. Which of the following is the correct practice?",
+      "options": [
+        "A. For females, wipe from bottom to top for thorough cleaning",
+        "B. Use soapy water to enhance cleaning power",
+        "C. For males, retract the foreskin to clean the coronal sulcus",
+        "D. When cleaning the catheter, wipe from the distal end towards the urethral opening"
+      ],
+      "answer": "C",
+      "explanation": "Male perineal cleaning should gently retract the foreskin to remove smegma; the other options violate the principles of asepsis and preventing retrograde infection."
+    },
+    {
+      "id": "Q7",
+      "type": "multi",
+      "question": "Which of the following measures are effective in preventing oral infection? (Multiple Choice)",
+      "options": [
+        "A. Use warm water cotton balls to clean the mouth",
+        "B. Let the patient eat before cleaning to stimulate saliva secretion",
+        "C. Clean twice daily, morning and evening",
+        "D. Do not wet the toothbrush to ensure friction",
+        "E. Drink water immediately after brushing"
+      ],
+      "answer": ["A", "C", "D"],
+      "explanation": "Oral cleaning should use warm water cotton balls, be done twice daily, maintain the dry brushing method, and avoid eating or drinking immediately after."
+    },
+    {
+      "id": "Q8",
+      "type": "scenario_chain",
+      "question": "Chain Scenario: An elderly person coughs and chokes during tube feeding.\n① What should the caregiver do first?\n② If the cough persists, what action should be taken?",
+      "steps": [
+        {
+          "step": 1,
+          "options": [
+            "A. Immediately stop the infusion",
+            "B. Continue the infusion and observe",
+            "C. Tap the back to promote phlegm expulsion",
+            "D. Adjust the posture and continue"
+          ],
+          "answer": "A"
+        },
+        {
+          "step": 2,
+          "options": [
+            "A. Reinsert the tube",
+            "B. Notify the doctor and assess for aspiration",
+            "C. Increase the flow rate to expel air",
+            "D. Continue to complete the remaining formula"
+          ],
+          "answer": "B"
+        }
+      ],
+      "explanation": "Stop the operation immediately if coughing occurs during tube feeding to prevent aspiration; if symptoms persist, report to assess airway safety."
+    }
+  ]
+}
